@@ -60,10 +60,10 @@
     <div class="row mt-5">
         <div class="col-8">
             <div class="row border p-4">
-                @foreach ($apartments as $apartment)
+                @foreach ($cat as $cat)
                     <div class="col-4 mb-3">
                         <div class="card">
-                            <img src="{{ $apartment->image }}" class="card-img-top" alt="...">
+                            <img src="{{ $$cat->image }}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <a href="#" class="text-primary">
                                     {{ $apartment->name }}
