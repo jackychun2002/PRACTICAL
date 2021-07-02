@@ -80,7 +80,7 @@
                                 <p>
                                     Price:
                                     <b>
-                                        {{ number_format($apartment->price) }} VND
+                                        {{ number_format($cat->price) }} VND
                                     </b>
                                 </p>
                             </div>
@@ -95,7 +95,7 @@
         <div class="col-4 text-end">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <span class="nav-link text-secondary">Search by Area</span>
+                    <span class="nav-link text-secondary">Search</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">District 1</a>
